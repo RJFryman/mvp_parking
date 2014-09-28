@@ -5,3 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+lots_list = [
+"Big Lot",
+"Johnston Goodman",
+"Quiznos",
+"Comberland Fire Saftey",
+"Subway-Hermitage",
+"Subway-5th",
+"Bridges",
+]
+
+lots_list.each do |name|
+  Lot.create(name: name)
+end
