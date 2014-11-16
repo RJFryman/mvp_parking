@@ -1,5 +1,4 @@
 ruby '2.1.2'
-#ruby-gemset=mvp-parking
 source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.0.0'
